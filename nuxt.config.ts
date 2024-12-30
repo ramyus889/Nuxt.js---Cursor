@@ -16,12 +16,17 @@ export default defineNuxtConfig({
     themeColor: "blue-500",
   },
   vuetify: {
-    moduleOptions: {
-      /* module specific options */
-    },
+    moduleOptions: {},
     vuetifyOptions: {
       theme: {
         defaultTheme: "dark",
+        themes: {
+          dark: {
+            colors: {
+              background: "#000000", // Set background color to black
+            },
+          },
+        },
       },
       icons: {
         defaultSet: "mdi",
