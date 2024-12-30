@@ -11,6 +11,10 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "slide-left", mode: "out-in" },
   },
+  appConfig: {
+    siteName: "My Awesome Site",
+    themeColor: "blue-500",
+  },
   vuetify: {
     moduleOptions: {
       /* module specific options */
