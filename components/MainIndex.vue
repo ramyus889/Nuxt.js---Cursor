@@ -33,7 +33,14 @@
       >
     </div>
     <div class="flex justify-center mt-[40px] max-w-[1296px] mx-auto">
-      <img src="/watch-demo.webp" alt="" />
+      <v-skeleton-loader
+        v-if="isLoader"
+        type="image"
+        width="1296px"
+        class="v-skeleton-loader"
+      >
+      </v-skeleton-loader>
+      <img v-else src="/watch-demo.webp" alt="" />
     </div>
   </div>
 </template>
@@ -42,6 +49,19 @@
 import { onBeforeUnmount, onMounted, ref } from "vue";
 
 const isMobile = ref(false);
+const isLoader = ref(true);
+
+onMounted(() => {
+  try {
+    const img = new Image();
+    img.src = "/watch-demo.webp";
+    img.onload = () => {
+      isLoader.value = false;
+    };
+  } catch (error) {
+    console.error(error);
+  }
+});
 
 const updateIsMobile = () => {
   isMobile.value = window.innerWidth <= 400;
@@ -56,3 +76,10 @@ onBeforeUnmount(() => {
   window.removeEventListener("resize", updateIsMobile);
 });
 </script>
+
+<style scoped>
+.v-skeleton-loader:deep(.v-skeleton-loader__image) {
+  border-radius: 16px;
+  height: 718px;
+}
+</style>
