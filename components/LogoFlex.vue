@@ -5,7 +5,7 @@
         Trusted by Engineers at
       </div>
       <div
-        class="flex flex-wrap justify-center items-center gap-x-[90px] gap-y-[44px] mt-[12px]"
+        class="flex flex-wrap justify-center items-center min-[420px]:gap-x-[90px] gap-x-[40px] gap-y-[44px] mt-[12px]"
       >
         <div v-for="item in items" :key="item.id" class="">
           <img :src="item.src" alt="" class="w-[140px]" />
