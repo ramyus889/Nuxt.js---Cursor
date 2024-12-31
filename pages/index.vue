@@ -16,6 +16,7 @@ useHead({
       <LogoFlex />
       <CardFlex />
       <FeaturesFlex />
+      <Footer />
     </div>
   </div>
 </template>
