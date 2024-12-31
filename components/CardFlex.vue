@@ -1,5 +1,5 @@
 <template>
-  <div class="flex place-content-center mt-[212px] mx-[20px]">
+  <div class="flex place-content-center mt-[212px]">
     <div class="w-full">
       <div class="flex flex-col gap-5">
         <div class="flex flex-col gap-4 text-center">
