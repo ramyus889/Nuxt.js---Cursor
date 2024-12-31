@@ -4,5 +4,14 @@ useHead({
 });
 </script>
 <template>
-  <div class=""><MainIndex /></div>
+  <div class="">
+    <div
+      class="min-[2300px]:mx-[331px] min-[2000px]:mx-[200px] min-[1600px]:mx-[150px] min-[1500px]:mx-[100px] min-[1280px]:mx-[50px] mx-[20px]"
+    >
+      <MainIndex />
+    </div>
+    <div class="mx-[591px]">
+      <LogoFlex />
+    </div>
+  </div>
 </template>
