@@ -40,11 +40,12 @@ const items = ref([
           <v-btn variant="outlined" size="large">See More Features</v-btn>
         </div>
       </div>
-      <div class="flex gap-[18px] mt-[97px]">
-        <div
+      <div class="flex flex-wrap justify-center gap-[18px] mt-[97px]">
+        <NuxtLink
+          to="/"
           v-for="item in items"
           :key="item.id"
-          class="border border-[#333] hover:border-[#d3d3d3] transition bg-[#0c0c0c] rounded-[16px] pt-[32px] max-w-[420px]"
+          class="border border-[#333] transition bg-[#0c0c0c] rounded-[16px] pt-[32px] max-w-[400px]"
         >
           <div class="px-[32px]">
             <div class="text-[36px] font-[600]">{{ item.title }}</div>
@@ -57,7 +58,7 @@ const items = ref([
           <div class="mt-[32px]">
             <img :src="item.src" alt="" class="rounded-b-[16px]" />
           </div>
-        </div>
+        </NuxtLink>
       </div>
     </div>
   </div>
