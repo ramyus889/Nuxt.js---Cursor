@@ -147,5 +147,14 @@ const items = ref([
         </div>
       </div>
     </div>
+    <div class="text-[24px] text-white mt-[64px] text-center">
+      Questions about enterprise security, procurement, or custom contracts?
+      <a
+        href="https://ntj7swv24uu.typeform.com/to/A6NqBvpe"
+        target="_blank"
+        class="underline"
+        >Contact Us</a
+      >
+    </div>
   </div>
 </template>
