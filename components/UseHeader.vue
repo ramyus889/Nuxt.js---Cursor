@@ -1,18 +1,4 @@
-<script setup lang="ts">
-const isLoader = ref(true);
-
-onMounted(() => {
-  try {
-    const img = new Image();
-    img.src = "/Cursor.png";
-    img.onload = () => {
-      isLoader.value = false;
-    };
-  } catch (error) {
-    console.error(error);
-  }
-});
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
@@ -22,14 +8,7 @@ onMounted(() => {
       >
         <div class="">
           <NuxtLink to="/">
-            <v-skeleton-loader
-              v-if="isLoader"
-              type="image"
-              width="140px"
-              class="v-skeleton-loader"
-            >
-            </v-skeleton-loader>
-            <img v-else src="/Cursor.png" alt="" />
+            <img src="/Cursor.png" alt="" />
           </NuxtLink>
         </div>
 
