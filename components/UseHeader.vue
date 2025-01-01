@@ -13,7 +13,7 @@
         </div>
 
         <div class="lg:flex hidden gap-[44px]">
-          <NuxtLink to="/" class="uppercase">Pricing</NuxtLink>
+          <NuxtLink to="/UsePricing" class="uppercase">Pricing</NuxtLink>
           <NuxtLink to="/" class="uppercase">Features</NuxtLink>
           <NuxtLink to="/" class="uppercase">Blog</NuxtLink>
         </div>
