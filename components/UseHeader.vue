@@ -47,7 +47,7 @@
             <v-btn
               key="1"
               as="nuxt-link"
-              to="/"
+              to="/UsePricing"
               icon="mdi-currency-usd"
               class="mt-6 ms-10"
             ></v-btn>
@@ -59,21 +59,21 @@
               class="ms-10"
             ></v-btn>
             <v-btn
-              key="2"
+              key="3"
               as="nuxt-link"
               to="/"
               icon="mdi-post"
               class="ms-10"
             ></v-btn>
             <v-btn
-              key="2"
+              key="4"
               as="nuxt-link"
               to="/"
               icon="mdi-login"
               class="ms-10"
             ></v-btn>
             <v-btn
-              key="2"
+              key="5"
               as="nuxt-link"
               to="/"
               icon="mdi-download"
