@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import CardTextFlex from "./components/CardTextFlex.vue";
 import PricingMain from "./components/PricingMain.vue";
 
 useHead({
@@ -12,6 +13,8 @@ useHead({
     >
       <PricingMain />
       <LogoFlex />
+      <CardTextFlex />
+      <Footer />
     </div>
   </div>
 </template>
