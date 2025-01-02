@@ -33,7 +33,7 @@ const items = ref([
           class="flex flex-col gap-4 text-center"
         >
           <div
-            class="sm:text-[52px] text-[42px] tracking-[-2.08px] font-[600] bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
+            class="sm:text-[52px] text-[42px] font-geist-sans tracking-[-2.08px] font-[600] bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
           >
             {{ item.title }}
           </div>

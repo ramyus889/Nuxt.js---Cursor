@@ -25,14 +25,14 @@ const items = ref([
   <div class="flex place-content-center mt-[224px] font-geist-mono">
     <div class="w-full">
       <div
-        class="sm:text-[52px] text-[32px] font-[600] max-[1024px]:text-center bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
+        class="sm:text-[52px] text-[32px] font-geist-sans font-[600] max-[1024px]:text-center bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
       >
         Build software faster
       </div>
       <div
-        class="flex flex-col items-center gap-5 lg:gap-0 lg:items-end lg:justify-between lg:flex-row"
+        class="flex flex-col items-center gap-5 lg:gap-0 lg:justify-between lg:flex-row"
       >
-        <div class="text-[22px] text-center">
+        <div class="text-[22px] max-w-[600px] max-[1024px]:text-center">
           Intelligent, fast, and familiar, Cursor is the best way to code with
           AI.
         </div>
@@ -54,7 +54,7 @@ const items = ref([
               {{ item.title }}
             </div>
             <div
-              class="text-[#b3b3b3] text-[18px] font-[600] max-w-[250px] mt-[24px]"
+              class="text-[#b3b3b3] text-[18px] font-[600] max-w-[450px] mt-[24px]"
             >
               {{ item.text }}
             </div>
@@ -75,7 +75,7 @@ const items = ref([
             <div class="text-[18px] text-[#b3b3b3] font-[600]">BLOG</div>
           </div>
           <div
-            class="my-[24px] min-[500px]:text-[36px] text-[25px] font-[600] max-[640px]:text-center"
+            class="my-[24px] min-[500px]:text-[36px] text-[25px] font-[600] max-[640px]:text-center font-geist-sans"
           >
             Shadow Workspace: Iterating on Code in the Background
           </div>
