@@ -5,6 +5,9 @@
 .font-geist-mono {
   font-family: "Geist Mono", monospace;
 }
+.font-geist-sans {
+  font-family: "Geist Sans", monospace;
+}
 
 .UserCard {
   display: inline-flex;

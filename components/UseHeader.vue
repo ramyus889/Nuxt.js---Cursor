@@ -14,7 +14,7 @@
 
         <div class="lg:flex hidden gap-[44px]">
           <NuxtLink to="/UsePricing" class="uppercase">Pricing</NuxtLink>
-          <NuxtLink to="/" class="uppercase">Features</NuxtLink>
+          <NuxtLink to="/UseFeatures" class="uppercase">Features</NuxtLink>
           <NuxtLink to="/" class="uppercase">Blog</NuxtLink>
         </div>
         <div class="items-center hidden gap-2 lg:flex">
@@ -54,7 +54,7 @@
             <v-btn
               key="2"
               as="nuxt-link"
-              to="/"
+              to="/UseFeatures"
               icon="mdi-feature-search"
               class="ms-10"
             ></v-btn>
