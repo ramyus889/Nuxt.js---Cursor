@@ -71,7 +71,7 @@ const items = ref([
 </script>
 
 <template>
-  <div class="mt-[160px]">
+  <div class="mt-[160px] font-geist-mono">
     <div class="">
       <div
         class="sm:text-[52px] text-[42px] font-[600] bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
@@ -97,9 +97,9 @@ const items = ref([
         >
           <div class="">
             <div class="text-[22px]">{{ item.headText }}</div>
-            <div class="text-[52px] mb-[16px] font-[600]">
+            <div class="text-[52px] mb-[16px] font-[600] flex items-center">
               {{ item.price }}
-              <span class="text-[22px]">{{ item.priceText }}</span>
+              <span class="text-[22px] pt-5">{{ item.priceText }}</span>
             </div>
             <div class="border-t border-[#333]"></div>
             <div class="text-[24px] font-[600] my-[16px]">{{ item.title }}</div>

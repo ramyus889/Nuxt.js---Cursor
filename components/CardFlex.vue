@@ -24,7 +24,7 @@ const items = ref([
 ]);
 </script>
 <template>
-  <div class="flex place-content-center mt-[212px]">
+  <div class="flex place-content-center mt-[212px] font-geist-mono">
     <div class="w-full">
       <div class="flex flex-col gap-[144px]">
         <div
@@ -33,11 +33,11 @@ const items = ref([
           class="flex flex-col gap-4 text-center"
         >
           <div
-            class="sm:text-[52px] text-[42px] font-[600] bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
+            class="sm:text-[52px] text-[42px] tracking-[-2.08px] font-[600] bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"
           >
             {{ item.title }}
           </div>
-          <div class="text-[22px] max-w-[550px] text-center mx-auto">
+          <div class="text-[22px] max-w-[750px] text-center mx-auto">
             {{ item.text }}
           </div>
           <div

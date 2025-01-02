@@ -22,7 +22,7 @@ const items = ref([
 </script>
 
 <template>
-  <div class="flex place-content-center mt-[224px]">
+  <div class="flex place-content-center mt-[224px] font-geist-mono">
     <div class="w-full">
       <div
         class="sm:text-[52px] text-[32px] font-[600] max-[1024px]:text-center bg-gradient-to-b from-[rgb(153,153,153)] via-[rgba(245,245,245)] to-[rgba(245,245,245,29%)] bg-clip-text text-transparent"

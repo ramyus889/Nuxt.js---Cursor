@@ -1,7 +1,9 @@
 <template>
   <div class="flex justify-center mt-[136px]">
     <div class="">
-      <div class="text-[14px] text-[#999] uppercase text-center">
+      <div
+        class="text-[14px] text-[#999] uppercase text-center font-geist-mono tracking-[0.56px]"
+      >
         Trusted by Engineers at
       </div>
       <div

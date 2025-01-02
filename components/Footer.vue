@@ -1,5 +1,7 @@
 <template>
-  <div class="flex lg:flex-row flex-col lg:gap-[64px] gap-[40px] mt-[220px]">
+  <div
+    class="flex lg:flex-row flex-col lg:gap-[64px] gap-[40px] mt-[220px] font-geist-mono"
+  >
     <div class="flex flex-col gap-4 max-[1024px]:mx-[20px]">
       <a href="mailto:hi@cursor.com" class="text-[18px] text-[#b3b3b3]"
         >hi@cursor.com</a

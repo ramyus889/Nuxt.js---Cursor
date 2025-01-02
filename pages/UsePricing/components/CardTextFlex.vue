@@ -64,7 +64,7 @@ const items3 = ref([
 </script>
 
 <template>
-  <div class="mt-[123px]">
+  <div class="mt-[123px] font-geist-mono">
     <div class="text-[36px] font-[600]">Frequently Asked Questions</div>
     <div class="mt-[56px] flex max-[1280px]:flex-wrap gap-[16px]">
       <div class="flex flex-col gap-[16px]">

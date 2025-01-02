@@ -2,7 +2,7 @@
 
 <template>
   <div class="fixed top-0 left-0 right-0 z-10">
-    <div class="flex place-content-center">
+    <div class="flex place-content-center font-geist-mono">
       <div
         class="mt-[24px] min-[2300px]:mx-[435px] min-[2000px]:mx-[300px] min-[1600px]:mx-[200px] min-[1280px]:mx-[100px] mx-[20px] rounded-[16px] flex justify-between items-center bg-black px-[7px] pt-[7px] pb-[8px] w-full"
       >
