@@ -12,29 +12,11 @@
           </NuxtLink>
         </div>
 
-        <div class="lg:flex hidden gap-[44px]">
+        <div class="sm:flex hidden gap-[44px]">
           <NuxtLink to="/UsePricing" class="uppercase">Pricing</NuxtLink>
           <NuxtLink to="/UseFeatures" class="uppercase">Features</NuxtLink>
-          <NuxtLink to="/" class="uppercase">Blog</NuxtLink>
         </div>
-        <div class="items-center hidden gap-2 lg:flex">
-          <v-btn
-            to="/"
-            size="large"
-            variant="outlined"
-            class="uppercase !tracking-[0.56px]"
-            >Sign In</v-btn
-          >
-          <v-btn
-            color="white"
-            size="large"
-            to="/"
-            class="uppercase !tracking-[0.56px] !leading-none"
-            prepend-icon="mdi-microsoft-windows"
-            >Download</v-btn
-          >
-        </div>
-        <div class="flex lg:hidden me-[50px]">
+        <div class="flex sm:hidden me-[50px]">
           <v-speed-dial location="bottom center" transition="fade-transition">
             <template v-slot:activator="{ props: activatorProps }">
               <v-fab
@@ -56,27 +38,6 @@
               as="nuxt-link"
               to="/UseFeatures"
               icon="mdi-feature-search"
-              class="ms-10"
-            ></v-btn>
-            <v-btn
-              key="3"
-              as="nuxt-link"
-              to="/"
-              icon="mdi-post"
-              class="ms-10"
-            ></v-btn>
-            <v-btn
-              key="4"
-              as="nuxt-link"
-              to="/"
-              icon="mdi-login"
-              class="ms-10"
-            ></v-btn>
-            <v-btn
-              key="5"
-              as="nuxt-link"
-              to="/"
-              icon="mdi-download"
               class="ms-10"
             ></v-btn>
           </v-speed-dial>
